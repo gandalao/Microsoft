@@ -1,0 +1,252 @@
+.nav .list-wrap {
+    align-items: center;
+}
+
+.nav .list-wrap li {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.nav .list-wrap .buy_now {
+    font-size: 13px;
+    font-weight: 400;
+    border: 1px solid #000;
+    border-radius: 3px;
+    width: 130px;
+    text-align: center;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.nav .list-wrap .buy_now:hover a {
+    /* text-decoration: underline; */
+    box-shadow: 0 1px 0 #000
+}
+
+.main {
+    box-sizing: border-box;
+}
+
+.bgbar {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.bgbar .bg img {
+    display: block;
+    width: 100%;
+}
+
+.bgbar .title {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+.bgbar .title h2 {
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.bgbar .title p {
+    font-size: 18px;
+}
+
+.editionInfo {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 8%;
+    margin-bottom: 50px;
+}
+
+.editionInfo ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* box-sizing: border-box; */
+}
+
+.editionInfo ul li {
+    width: 32%;
+}
+
+.editionInfo ul li:hover img {
+    opacity: 1;
+}
+
+.editionInfo ul li img {
+    width: 100%;
+    display: block;
+    opacity: .9;
+}
+
+.editionInfo .edition {
+    margin: 10px 0 20px;
+    font-size: 15px;
+}
+
+.editionInfo .edition h4 {
+    font-size: 24px;
+    /* margin-bottom: 5px; */
+}
+
+.editionInfo .edition p {
+    margin: 30px 0;
+}
+
+.editionInfo .edition a {
+    font-weight: 700;
+    color: #005da6;
+}
+
+.editionInfo .edition a:hover span {
+    box-shadow: 0 2px 0 #005da6;
+}
+
+.editionInfo .edition a i {
+    font-size: 12px;
+}
+
+.winTitle {
+    margin: 10px 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.winTitle h2 {
+    font-size: 44px;
+}
+
+.winTitle p {
+    font-weight: 200;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.winTitle a {
+    font-weight: 700;
+    font-size: 15px;
+    color: #005da6;
+}
+
+.winTitle a:hover span {
+    box-shadow: 0 2px 0 #005da6;
+}
+
+.winTitle a i {
+    font-size: 12px;
+}
+
+.winInfo {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.winInfo .winimg {
+    width: 70%;
+}
+
+.winInfo .winimg img {
+    width: 100%;
+    display: block;
+}
+
+.winInfo .wintext {
+    width: 30%;
+    padding: 0 50px;
+}
+
+.winInfo .wintext h4 {
+    font-size: 32px;
+}
+
+.winInfo .wintext p {
+    font-weight: 200;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.winInfo .wintext2 a {
+    font-weight: 700;
+    font-size: 15px;
+    color: #005da6;
+}
+
+.winInfo .wintext2 a:hover span {
+    box-shadow: 0 2px 0 #005da6;
+}
+
+.winInfo .wintext2 a i {
+    font-size: 12px;
+}
+
+.merit {
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+.merit ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.merit ul li {
+    width: 23%;
+}
+.merit ul li .meritImg img {
+    width: 100%;
+    display: block;
+}
+.merit ul li h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+.merit ul li p {
+    font-style: 15px;
+}
+.wechat {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 40px 0 60px 5%;
+}
+
+.wechat svg {
+    opacity: 1;
+    font-size: 50px;
+    margin-left: 5px;
+    vertical-align: -18px;
+}
+
+.wechat svg:hover {
+    opacity: .8
+}
+
+.wechat svg:nth-of-type(2) {
+    font-size: 34px;
+    /* margin-left: 10px; */
+    vertical-align: -10px;
+}
+
+.wechat svg:nth-of-type(1):hover+.weixin_on {
+    display: block;
+}
+
+.wechat .weixin_on {
+    display: none;
+    left: 100px;
+    top: 48px;
+}
+
+.wechat .weixin_on img {
+    width: 200px;
+    height: 120px
+}

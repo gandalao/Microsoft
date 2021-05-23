@@ -1,0 +1,148 @@
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( #ebddd9, #dae2e9)
+}
+
+.page {
+    /* display: none; */
+    overflow: hidden;
+    width: 440px;
+    height: 410px;
+    /* background-color: lightpink; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.show {
+    display: none;
+}
+
+.register {
+    box-sizing: border-box;
+    width: 100%;
+    height: 82%;
+    background-color: #fff;
+    padding: 40px;
+    margin-bottom: 6%;
+}
+
+.register .logo img {
+    margin-bottom: 20px;
+    width: 116px;
+    height: 26px;
+}
+
+.register ul li {
+    margin-bottom: 20px;
+    animation: run .5s forwards;
+}
+
+.register ul li:first-child {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.register ul {
+    height: 178px;
+}
+
+.register ul li input {
+    height: 28px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+    /* padding-left: 20px; */
+}
+
+.register ul li a {
+    color: #0067b8;
+}
+
+.register ul li a:hover {
+    text-decoration: underline;
+}
+
+.register .next {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.register .next span {
+    cursor: pointer;
+    text-align: center;
+    width: 106px;
+    line-height: 30px;
+    color: #fff;
+    background-color: #0067b8;
+    opacity: .9;
+    animation: run .5s forwards;
+}
+
+.register .next span:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.register .phone select {
+    width: 20%;
+    height: 29px;
+    border: 0;
+    border-bottom: 1px solid #000;
+    outline: none;
+    appearance: none;
+    margin-right: 5%;
+}
+
+.register .phone span::before {
+    font-family: "iconfont";
+    content: "\e51a";
+    position: absolute;
+    top: 6px;
+    left: 50px;
+    font-size: 8px;
+}
+
+.register .phone input {
+    padding-left: 3px;
+    width: 73%;
+}
+
+.register .newE_mail input {
+    width: 60%;
+}
+
+.register .newE_mail select {
+    width: 38%;
+    height: 29px;
+    border: 0;
+    border-bottom: 1px solid #000;
+    outline: none;
+    appearance: none;
+    padding-left: 4px;
+    /* margin-right: 5%; */
+}
+
+.register .newE_mail span::after {
+    font-family: "iconfont";
+    content: "\e51a";
+    position: absolute;
+    right: 6px;
+    font-size: 8px;
+    padding-top: 8px;
+}
+
+@keyframes run {
+    0% {
+        transform: translateX(440px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}

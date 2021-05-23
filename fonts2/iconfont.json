@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "76369732",
+      "name": "暂停",
+      "font_class": "zanting",
+      "unicode": "e7af",
+      "unicode_decimal": 59311
+    },
+    {
+      "icon_id": "76369733",
+      "name": "暂停",
+      "font_class": "zanting1",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "7069157",
+      "name": "箭头-左",
+      "font_class": "jiantou-zuo",
+      "unicode": "e738",
+      "unicode_decimal": 59192
+    }
+  ]
+}
